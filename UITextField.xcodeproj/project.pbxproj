@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A8F4596620A1975000FA94F4 /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F4596620A1975000FA94F4 /* UITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F4596920A1975000FA94F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F4596B20A1975000FA94F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8F4596E20A1975000FA94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A8F4596720A1975000FA94F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8F4596620A1975000FA94F4 /* UIElements.app */,
+				A8F4596620A1975000FA94F4 /* UITextField.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8F4596520A1975000FA94F4 /* UIElements */ = {
+		A8F4596520A1975000FA94F4 /* UITextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8F4597820A1976100FA94F4 /* Build configuration list for PBXNativeTarget "UIElements" */;
+			buildConfigurationList = A8F4597820A1976100FA94F4 /* Build configuration list for PBXNativeTarget "UITextField" */;
 			buildPhases = (
 				A8F4596220A1975000FA94F4 /* Sources */,
 				A8F4596320A1975000FA94F4 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = UIElements;
+			name = UITextField;
 			productName = UIElements;
-			productReference = A8F4596620A1975000FA94F4 /* UIElements.app */;
+			productReference = A8F4596620A1975000FA94F4 /* UITextField.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UIElements" */;
+			buildConfigurationList = A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UITextField" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8F4596520A1975000FA94F4 /* UIElements */,
+				A8F4596520A1975000FA94F4 /* UITextField */,
 			);
 		};
 /* End PBXProject section */
@@ -286,8 +286,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UIElements;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UITextField;
+				PRODUCT_NAME = UITextField;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,8 +303,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UIElements;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.UITextField;
+				PRODUCT_NAME = UITextField;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UIElements" */ = {
+		A8F4596120A1975000FA94F4 /* Build configuration list for PBXProject "UITextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F4597620A1976100FA94F4 /* Debug */,
@@ -322,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8F4597820A1976100FA94F4 /* Build configuration list for PBXNativeTarget "UIElements" */ = {
+		A8F4597820A1976100FA94F4 /* Build configuration list for PBXNativeTarget "UITextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8F4597920A1976100FA94F4 /* Debug */,

@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var segmentedControl: UISegmentedControl!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var slider: UISlider!
+    @IBOutlet weak var textFieldTF: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,5 +59,26 @@ class ViewController: UIViewController {
         let backgrandColor = self.view.backgroundColor
         self.view.backgroundColor = backgrandColor?.withAlphaComponent(CGFloat(sender.value))
     }
+    
+    @IBAction func donePressed(_ sender: UIButton) {
+        
+        guard textFieldTF.text?.isEmpty == false else { return }
+        
+        if let _ = Double(textFieldTF.text!) {
+            
+            let alert = UIAlertController(title: "wrong format !!!", message: "Please enter your name!", preferredStyle: .alert)
+            let actionAlert = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            alert.addAction(actionAlert)
+            present(alert, animated: true, completion: nil)
+            
+        } else {
+            
+            label.text = textFieldTF.text
+            textFieldTF.text = nil
+        }
+        
+    }
+    
+    
 }
 
